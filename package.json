@@ -3,11 +3,12 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "node server.js",
+    "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "deploy": "ng build --prod --base-href  https://Andrew2020Ayman.github.io/montanaHostTest/ && angular-cli-ghpages --branch  gh-pages"
   },
   "private": true,
   "dependencies": {
