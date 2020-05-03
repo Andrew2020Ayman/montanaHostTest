@@ -5,7 +5,7 @@
     /* position: absolute; */
     left: 0;
     top: 0;
-    background-image: url("/assets/banner/banner2.png");
+    background-image: url('/assets/banner/banner2.png');
 }
 .img_Slider{
     top: 0;
