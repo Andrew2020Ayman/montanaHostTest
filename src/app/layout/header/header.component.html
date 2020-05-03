@@ -1,0 +1,135 @@
+<header>
+    <nav class="navbar navbar-expand-lg pt-4 nav_cont " id="myDiv">
+        <div class="container-fluid">
+            <div class="row " style="width: 100%;" id="rowD">
+                <div class="col-md-5 "> 
+                    <div
+                    class="collapse navbar-collapse navlistItem"
+                    id="navbarSupportedContent"
+                    > 
+                     
+                    <ul class="navbar-nav mr-auto ml-5">
+                     
+                        
+                      <li class="nav-item active px-3"
+                      ><a
+                      [routerLink]="['/Home']"
+                      > Home </a>
+                      </li>
+
+                      <li class="nav-item  px-3">
+                           <a
+                           [routerLink]="['/Rooms']"
+                           > Rooms </a>
+                        </li>
+
+                      <li class="nav-item  px-3">
+                           <a
+                           [routerLink]="['/about']"
+                           > About </a>
+                        </li>
+
+                      <li class="nav-item  px-3">
+                           
+                        <div class="dropdown">
+                            <button class="dropbtn">Blog 
+                                <i class="fa fa-chevron-down" style="font-size: small;"></i>
+                            </button>
+                            <div class="dropdown-content">
+                              <a 
+                              [routerLink]="['/Blog']"
+                              >Blog</a>
+                              <a 
+                              [routerLink]="['/SingleBlog']"
+                              >Single-Blog</a>
+                            </div>
+                          </div>
+
+                        </li>
+
+                      
+                      <li class="nav-item  px-3">
+                        
+                           <a
+                           [routerLink]="['/Contact']"
+                           > Contact </a>
+                        </li>
+
+                    </ul>
+                    </div>
+
+                 </div>
+              <div class="col-md-2">
+                  <div class="img_logo">
+                       <img src="../../../assets/logo.png"  [routerLink]="['/Home']" style="outline: none;" class="imgCont" >
+                  </div>
+                   
+                </div>
+                <div class="col-md-5 ">
+                    <div class="Book_sec row">
+                        <div class="Links_icon navbar">
+                            <ul class="navbar-nav">
+                                <li class="nav-item ">
+                                   <a>
+                                      <i class="fa fa-facebook-square iCons"></i>    
+                                    </a>
+                                </li>
+
+                                <li  class="nav-item ">
+                                    <a>
+                                       <i class="fa fa-twitter iCons"></i>    
+                                     </a>
+                                 </li>
+
+                                 <li  class="nav-item ">
+                                    <a>
+                                       <i class="fa fa-instagram iCons"></i>    
+                                     </a>
+                                 </li>
+                            </ul>
+                        </div>
+
+                        <button class="book_btn" (click)="BookNowPOP()">
+                            Book A Room
+                        </button>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </nav>
+
+    <div class="vidDiv" *ngIf="BookHeader">
+        <div class="OverlayBg" (click)="ReturnToHome()" >
+  
+          
+        </div>
+        <div class="BookPop">
+             <div class="innerPop">
+               <div class="row">
+                 <div class="col-xl-6">
+                    <input type="text" name="daterange"/>
+                 </div>
+                 <div class="col-xl-6">
+                    <p>Date: <input type="text" id="datepicker"></p>
+                 </div>
+                 <div class="col-xl-6">
+                    <div class='input-group date' id='datetimepicker1'>
+                        <input type='text' class="form-control" />
+                        <span class="input-group-addon">
+                            <span class="glyphicon glyphicon-calendar"></span>
+                        </span>
+                    </div>
+                 </div>
+                 <div class="col-xl-6">
+                    <label for="datepicker">Pick a Date
+                        <input type="text" id="datepicker" autocomplete="off">
+                    </label>	
+                 </div>
+                 <div class="col-xl-12"></div>
+                 <div class="col-xl-12"></div>
+               </div>
+             </div>
+          </div>
+     </div>
+
+</header>

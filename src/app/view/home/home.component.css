@@ -1,0 +1,489 @@
+.img_cont{
+    width: 103.1% !important;
+    height: 100vh;
+    margin-left: -2%;
+    /* position: absolute; */
+    left: 0;
+    top: 0;
+    background-image: url("/assets/banner/banner2.png");
+}
+.img_Slider{
+    top: 0;
+    left: 0;
+}
+
+.Title_cont{
+    z-index: 1;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    font-weight: 400;
+    left: 23%;
+    top: 43%;
+}
+.Des_cont{
+    z-index: 1;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    font-weight: 400;
+    left: 34%;
+    top: 61%;
+}
+
+.part1{
+    margin-left: 20%;
+}
+.about_head{
+    color: #009dff;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    display: block;
+}
+
+
+.about_title{
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 56px;
+    color: #1f1f1f;
+}
+.about_des{
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 0;
+    margin-bottom: 47px;
+    font-weight: 300;
+    line-height: 28px;
+    color: #4d4d4d;
+}
+
+.img_Part{
+    margin-left: 10%;
+}
+.learnBtn{
+    background: transparent;
+    border: none;
+    color: #919191;
+    font-size: 18px;
+    font-weight: 400;
+    display: inline-block;
+    position: relative;
+    padding-right: 5px;
+    padding-bottom: 2px;
+    transition: .3s;
+    outline: none;
+    border-bottom: 1.6px solid #919191;
+    
+}
+.learnBtn:hover{
+    color: #009dff;
+    border-bottom: 1.4px solid #009dff;
+}
+
+.ImgI{
+    margin-top: -10%;
+}
+
+.ImgII{
+    margin-left: 2%;
+}
+
+.titleI{
+    color: #009DFF;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 23px;
+    display: block;
+    margin-left: 14%;
+}
+
+.titleII{
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 56px;
+    color: #1F1F1F;
+}
+
+.Titles{
+    margin-left: 39%;
+    padding-bottom: 3%;
+}
+.offer_img{
+    margin-left: 9%;
+    overflow: hidden;
+}
+
+ .offer_imgII{
+    margin-left: 5%;
+}
+.offer_imgIII{
+    margin-left: 5%;
+} 
+.off_col{
+    overflow: hidden;
+    width: 127%;
+    height: 51%;
+}
+.off_img_cont{
+    width: 120%;
+    transition: .3s;
+    transform: scale(1);
+}
+.off_img_cont:hover{
+    width: 120%;
+    transform: scale(1.1);
+}
+
+.offer_title{
+    font-size: 22px;
+    font-weight: 400;
+    color: #1F1F1F;
+}
+.offerList{
+    margin-left: -7%;
+}
+.offerList li{
+    font-size: 19px;
+    color: #4D4D4D;
+    line-height: 31px;
+    position: relative;
+    z-index: 9;
+}
+
+.book_btn{
+    background-color:white ;
+    border:1px solid #009dff;
+    color: #009dff;
+    padding: 12px 30px 12px 30px;
+    position: relative;
+    width: 123%;
+}
+
+.book_btn:hover{
+    background-color: #009DFF;
+    color: white;
+}
+
+.titleIF{
+    color: #009DFF;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 23px;
+    display: block;
+    margin-left: 21%;
+}
+
+
+
+.TitlesF{
+    margin-left: 30%;
+    padding-bottom: 3%;
+}
+
+.videoImg{
+    background-image: url('../../../assets/video/video.png');
+    background-size: cover;
+    width: 102.3%;
+    height: 100vh;
+    margin-left: -15px;
+}
+.overL{
+    content: "";
+    display: block;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0,0.35));
+}
+
+.vidTxtI{
+ color: #fff;
+ font-size: 16px;
+ padding-left: 16%;
+}
+.vidTxtII{
+    color: #fff;
+    font-size: 44px;
+    line-height: 56px;
+    font-weight: 400;
+    margin-top: 12px;
+    margin-bottom: 28px;
+}
+.vidTxtIII{
+    color: #fff;
+    font-size: 44px;
+    line-height: 56px;
+    font-weight: 400;
+    margin-top: 12px;
+    margin-bottom: 28px;
+    padding-left: 14%;
+}
+
+.vidTitle{
+    padding-left: 34%;
+    padding-top: 15%;
+}
+
+.playBtn{
+    width: 60px;
+    height: 60px;
+    background: #fff;
+    line-height: 60px;
+    font-size: 15px;
+    color: #009DFF;
+    display: inline-block;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    margin-left: 20%;
+}
+.playBtn i{
+    margin-left: 44%;
+}
+
+.videoOverlay{
+    content: "";
+    display: block;
+    left: 0;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0, 0.6), rgba(0,0,0,0.6));
+}
+.videoSec{
+    z-index: 11111;
+    width: 92%;
+    height: 80vh;
+    margin-left: 4%;
+    margin-top: 6%;
+    position: relative;
+  
+}
+
+
+.foodDes{
+    margin-left: -2% !important;
+}
+.foodSec{
+    margin-left: -2%;
+}
+
+.titleIF{
+    color: #009DFF;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 23px;
+    display: block;
+    margin-left: 21%;
+}
+
+
+
+.TitlesF{
+    margin-left: 30%;
+    padding-bottom: 3%;
+}
+
+
+.Room{
+    position: relative;
+    width: 50%;
+    float: left;
+
+}
+.room_img{
+    width: 100%;
+    transition: .5s;
+    transform: scale(1);
+}
+
+.roomDiv:hover .room_img{ 
+    width: 100%;
+    transform: scale(1.1);
+}
+.Room_Section{
+    width: 103.1%;
+    margin-left: -2%;
+}
+.roomDiv{
+    width: 100%;
+    overflow: hidden;
+    
+}
+.roomDiv::after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%; /* set to 100% for full overlay width */
+    background: linear-gradient(to bottom, rgba(236, 235, 235, 0.493) 0%,rgba(0,0,0,0.4) 100%);
+}
+
+
+.roomDes{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    padding: 60px 60px 47px 60px;
+}
+.roomTxt span  {
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-bottom: 9px;
+    display: block;
+    position: relative;
+    z-index: 8;
+}
+.roomTxt h3 {
+    font-size: 30px;
+    color: #fff;
+    position: relative;
+    z-index: 8;
+}
+
+
+.bkNowBtn{
+    border: none;
+    border-bottom: 1.7px solid white;
+    background: transparent;
+    float: right;
+    color: #fff;
+    font-weight: 600;
+    position: relative;
+    z-index: 8;
+    margin-bottom: 36px;
+    margin-left: 46%;
+    /* transform: translateY(-40px); */
+    transform: translate3d(67px, -50px, 0);
+    transition: 0.3s;
+    opacity: 0;
+    visibility: hidden;
+    outline: none;
+}
+
+.roomDiv:hover .bkNowBtn{
+    transform: translate3d(10px, 15px, 0);
+    opacity: 1;
+    visibility: visible;
+   
+}
+.bkNowBtn:hover{
+    color: #009DFF;
+    border-bottom: 1.7px solid #009DFF;
+}
+
+.tele{
+    border: 1px solid #bababa;
+    padding: 49px 49px 37px 39px;
+    margin-left: 15%;
+    margin-right: 15%;
+    position: relative;
+    margin-top: 58%;
+}
+
+.Res{
+    font-size: 33px;
+    color: #1f1f1f;
+    font-weight: 400;
+    margin-bottom: 0;
+    line-height: 28px;
+    margin-top: 3%;
+}
+.tel_cont{
+    background: #009dff;
+    color: #fff;
+    padding: 13px 54px;
+    border-radius: 30px;
+    display: inline-block;
+    font-size: 20px;
+    border: 1px solid transparent;
+    margin-left: 27%;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.tel_cont:hover{
+    background: #fff ;
+    border: 1px solid #009dff;
+    color: #009dff;
+}
+
+.padding-0{
+    padding-right:0;
+    padding-left:0;
+    overflow: hidden;
+}
+.insta_img{
+width: 100%;
+cursor: pointer;
+   transform: scaleX(1);
+    transition: .5s;
+}
+
+.insta_img:hover{
+    transform: scaleX(1.1);
+}
+
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.2);
+    transform: translateX(-80%);
+    transition: .5s;
+    opacity: 0;
+    visibility: hidden;
+
+}
+.overlay a{
+    color: #fff;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    text-align: center;
+    font-size: 34px;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+
+.imgDive:hover  .overlay{
+    visibility: visible;
+    transform: translateX(0%);
+    opacity: 1;
+    
+}
+
+
+.insta_img:hover .overlay a{
+    text-decoration: none;
+    color: #1f1f1f;
+}
+
+
+.OverlayBg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    -webkit-transition: opacity 300ms cubic-bezier(0.895, 0.03, 0.685, 0.22);
+    transition: opacity 300ms cubic-bezier(0.895, 0.03, 0.685, 0.2);
+    z-index: 10;
+    opacity: 1;
+    
+  }

@@ -1,0 +1,218 @@
+
+.slide_bg{
+    padding: 170px;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    margin-top: 8%;
+    padding: 330px 0 234px;
+}
+.img_Slider{
+    top: -127px;
+    left: -15px;
+    position: relative;
+    width: 102%;
+    height: 106px;
+  
+    background-image: url("../../../assets/banner/bradcam.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.Title_cont{
+    z-index: 1;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    position: absolute;
+    font-weight: 400;
+    left: 34%;
+    top: 54%;
+    font-size: 65px;
+    margin-bottom: 0;
+    text-transform: capitalize;
+}
+
+.part1{
+    margin-left: 20%;
+}
+.about_head{
+    color: #009dff;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    display: block;
+}
+
+
+.about_title{
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 56px;
+    color: #1f1f1f;
+}
+.about_des{
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 0;
+    margin-bottom: 47px;
+    font-weight: 300;
+    line-height: 28px;
+    color: #4d4d4d;
+}
+
+.img_Part{
+    margin-left: 10%;
+}
+.learnBtn{
+    background: transparent;
+    border: none;
+    color: #919191;
+    font-size: 18px;
+    font-weight: 400;
+    display: inline-block;
+    position: relative;
+    padding-right: 5px;
+    padding-bottom: 2px;
+    transition: .3s;
+    outline: none;
+    border-bottom: 1.6px solid #919191;
+    
+}
+.learnBtn:hover{
+    color: #009dff;
+    border-bottom: 1.4px solid #009dff;
+}
+
+.ImgI{
+    margin-top: -10%;
+}
+
+.ImgII{
+    margin-left: 2%;
+}
+
+.big_img{
+    margin-left: -2%;
+}
+.big_cont{
+    width: 104.1%;
+}
+
+.big_title{
+    font-size: 25px;
+    color: #1d1d1d;
+    margin-bottom: 0;
+    margin-bottom: 10px;
+    line-height: 32px;
+  
+    font-weight: 500;
+}
+.sml_title{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #4d4d4d;
+    
+}
+
+.BTI{
+    margin-left: 15%;
+    margin-right: 43%;
+}
+.STI{
+    margin-left: 15%;
+    margin-right: 7%;
+}
+
+.BTII{
+    margin-left: 0%;
+    margin-right: 52%;
+}
+.STII{
+    margin-left: 0%;
+    margin-right: 11%;
+}
+
+.tele{
+    border: 1px solid #bababa;
+    padding: 51px 50px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.Res{
+    font-size: 33px;
+    color: #1f1f1f;
+    font-weight: 400;
+    margin-bottom: 0;
+    line-height: 28px;
+    margin-top: 3%;
+}
+.tel_cont{
+    background: #009dff;
+    color: #fff;
+    padding: 12px 53px;
+    border-radius: 30px;
+    display: inline-block;
+    font-size: 20px;
+    border: 1px solid transparent;
+    margin-left: 40%;
+
+}
+
+.padding-0{
+    padding-right:0;
+    padding-left:0;
+    overflow: hidden;
+}
+.insta_img{
+width: 100%;
+cursor: pointer;
+   transform: scaleX(1);
+    transition: .5s;
+}
+
+.insta_img:hover{
+    transform: scaleX(1.1);
+}
+
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.2);
+    transform: translateX(-80%);
+    transition: .5s;
+    opacity: 0;
+    visibility: hidden;
+
+}
+.overlay a{
+    color: #fff;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    text-align: center;
+    font-size: 34px;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+
+.imgDive:hover  .overlay{
+    visibility: visible;
+    transform: translateX(0%);
+    opacity: 1;
+    
+}
+
+.insta_img:hover .overlay a{
+    text-decoration: none;
+    color: #1f1f1f;
+}

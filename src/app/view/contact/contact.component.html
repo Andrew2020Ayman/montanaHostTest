@@ -1,0 +1,87 @@
+<section class="Rooms">
+    <div class="container-fluid">
+        <div   class=" img_Slider slide_bg" >
+             <h1 class="Title_cont"> Get In Touch</h1>
+        </div>
+ 
+        <br><br><br><br><br>
+        
+            <agm-map [latitude]="lat" [longitude] = "long" class="map_section" >
+           <agm-marker [latitude]="lat" [longitude] = "long"></agm-marker> 
+      </agm-map>
+        <br><br><br><br>
+   
+        <div class="row getTouchSec">
+            <div class="col-md-8 SectionI">
+               <p class="Sectitle"> Get In Touch</p>
+                <textarea class="TxtArea"  placeholder="Enter Message"></textarea>
+              <br> <br>
+              
+              <div class="row">
+                  <div class="col-md-6">
+                      <input class="NmSec" placeholder="Name">
+                  </div>
+                  <div class="col-md-6">
+                    <input class="NmSec emSec" placeholder="Email">
+                  </div>
+                  
+              </div>
+              <br> <br>
+              <input class="SubSec" placeholder="Enter Subject">
+              <br><br><br>
+              <button class="SendBtn">SEND</button>
+              
+            </div>
+            <div class="col-md-3 SectionII">
+                 <div class="row">
+                     <div class="col">
+                        <i class="fa fa-home iconI"></i>
+                     </div>
+                     <div class="col col_mrg">
+                      <div class="iconTxtTitle">
+                           Buttonwood, California.  
+                           <br> 
+                           <p class="iconTxt"> Rosemead, CA 91770 </p>
+                         </div>  
+                        
+                           
+                     </div>
+                 </div>
+                       <br><br>
+                 <div class="row">
+                    <div class="col">
+                        <i class="fa fa-mobile iconII"></i>
+                     </div>
+
+                     <div class="col col_mrg">
+                        <div class="iconTxtTitle">
+                            +1 253 565 2365  
+                             <br> 
+                             <p class="iconTxt"> Mon to Fri 9am to 6pm </p>
+                           </div>  
+                       </div>
+
+                 </div>
+                    <br><br>
+                 <div class="row">
+                    <div class="col">
+                        <i class="fa fa-envelope iconIII"></i>
+                    </div>
+
+                    <div class="col col_mrg">
+                        <div class="iconTxtTitle">
+                            support@test.com
+                             <br> 
+                             <p class="iconTxt">Send us your query anytime!</p>
+                           </div>  
+                       </div>
+
+                 </div>
+            </div>
+        </div>
+        <br><br>
+    
+    </div>
+ </section>
+ 
+    
