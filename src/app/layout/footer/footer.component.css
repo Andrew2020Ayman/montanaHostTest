@@ -29,6 +29,9 @@
 .specHei{
     line-height: 48px;
 }
+.specHei:hover{
+    color: #009DFF;
+}
 
 .getDir{
     outline: none;
@@ -73,6 +76,11 @@ i{
     font-size: 20px;
     color: white;
     padding-left: 24%;
+    cursor: pointer;
+}
+
+i:hover{
+  color: #919191;
 }
 .Email_footer{
     width: 107%;

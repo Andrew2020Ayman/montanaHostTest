@@ -151,13 +151,21 @@
 .tel_cont{
     background: #009dff;
     color: #fff;
-    padding: 12px 53px;
+    padding: 13px 54px;
     border-radius: 30px;
     display: inline-block;
     font-size: 20px;
     border: 1px solid transparent;
-    margin-left: 40%;
+    margin-left: 27%;
+    text-decoration: none;
+    transition: 0.5s;
 
+}
+
+.tel_cont:hover{
+    background: #fff;
+    border: 1px solid #009dff;
+    color: #009dff;
 }
 
 .padding-0{

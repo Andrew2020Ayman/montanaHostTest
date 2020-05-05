@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+
 declare var $: any;
 @Component({
   selector: 'app-header',
@@ -9,14 +10,32 @@ declare var $: any;
 export class HeaderComponent implements OnInit {
 
   BookHeader=false;
+  
+  Childrens= [
+    {value: '1', viewValue: '1'},
+    {value: '2', viewValue: '2'},
+    {value: '3', viewValue: '3'},
+    {value: '4', viewValue: '4'},
+  ];
+
+  Rooms = [
+    {value: 'R1', viewValue: 'Laxaries Rooms'},
+    {value: 'R2', viewValue: 'Deluxe Room'},
+    {value: 'R3', viewValue: 'Signature Room'},
+    {value: 'R4', viewValue: 'Couple Room'},
+  ];
+
+
+  Currrouter = '1';
 
   constructor() {
-    
-    
 
    }
 
   ngOnInit() {
+    
+
+
     $(window).scroll(function(){
      // $('.nav_cont').toggleClass('scrolled', $(this).scrollTop() > 50);
      
@@ -34,16 +53,14 @@ export class HeaderComponent implements OnInit {
       
     });
 
-    $( function() {
-      $( "#datepicker" ).datepicker({
-        dateFormat: "dd-mm-yy"
-        ,	duration: "fast"
-      });
-    } );
+   
 
   
   }
 
+  Active_Router_Click(RouterNumber){
+    this.Currrouter = RouterNumber;
+  }
   BookNowPOP(){
     this.BookHeader = true;
     document.querySelector("body").style.overflow="hidden";

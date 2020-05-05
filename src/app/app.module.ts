@@ -13,12 +13,17 @@ import {MatMenuModule} from '@angular/material/menu';
 import { AboutComponent } from './view/about/about.component';
 import { FooterComponent } from './layout/footer/footer.component';
 import {MatFormFieldModule} from '@angular/material/form-field';
-
+import {MatSelectModule} from '@angular/material/select';
+import { MatDatepickerModule, MatInputModule, MatNativeDateModule } from '@angular/material';
+import {MatIconModule} from '@angular/material/icon';
 import { RoomsComponent } from './view/rooms/rooms.component';
 import { ContactComponent } from './view/contact/contact.component';
 import {AgmCoreModule} from '@agm/core';
 import { BlogComponent } from './view/blog/blog.component';
 import { SingleCompComponent } from './view/single-comp/single-comp.component'
+// RECOMMENDED
+import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
+
 
 @NgModule({
   declarations: [
@@ -39,6 +44,13 @@ import { SingleCompComponent } from './view/single-comp/single-comp.component'
     BrowserAnimationsModule,
     MatMenuModule,
     MatFormFieldModule,
+    MatDatepickerModule,
+    MatInputModule,
+    MatNativeDateModule,
+    MatIconModule,
+    MatSelectModule,
+    BsDatepickerModule.forRoot(),
+
     AgmCoreModule.forRoot({
       /* apiKey:'AIzaSyD8CSL2P9dPVAq0efa3yskFoIUUdsxg7PQ' */
        apiKey:'AIzaSyC9er13I_YgiTPvCSy2QeBdDsUTRHQsYEo'
