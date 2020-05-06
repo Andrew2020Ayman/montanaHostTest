@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { Router } from '@angular/router';
 
 declare var $: any;
 @Component({
@@ -27,14 +27,39 @@ export class HeaderComponent implements OnInit {
 
 
   Currrouter = '1';
+  public urL: string = "";
+  constructor(private router: Router) {
+    this.urL = window.location.href;
+    console.log( this.urL);
+    let url = this.urL.split('http://localhost:4200/');
+    this.urL = url[1];
+    console.log(this.urL);
+    
+    if(this.urL === "Home" ){this.Currrouter='1';}
+    if(this.urL === "Rooms" ){this.Currrouter='2';}
+    if(this.urL === "about" ){this.Currrouter='3';}
+    if(this.urL === "Blog" ){this.Currrouter='4';}
+    if(this.urL === "Contact" ){this.Currrouter='5';}
 
-  constructor() {
-
+    console.log(this.Currrouter);
+    
    }
 
   ngOnInit() {
     
+    this.urL = window.location.href;
+    console.log( this.urL);
+    let url = this.urL.split('http://localhost:4200/');
+    this.urL = url[1];
+    console.log(this.urL);
+    
+    if(this.urL === "Home" ){this.Currrouter='1';}
+    if(this.urL === "Rooms" ){this.Currrouter='2';}
+    if(this.urL === "about" ){this.Currrouter='3';}
+    if(this.urL === "Blog" ){this.Currrouter='4';}
+    if(this.urL === "Contact" ){this.Currrouter='5';}
 
+console.log(this.Currrouter);
 
     $(window).scroll(function(){
      // $('.nav_cont').toggleClass('scrolled', $(this).scrollTop() > 50);

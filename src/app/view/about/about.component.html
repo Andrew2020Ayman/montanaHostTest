@@ -33,9 +33,22 @@
 
         <br> <br> <br>
 
-        <div class="big_img col-md-12">
-            <img src="assets/banner/about_banner.png" class="big_cont">
+
+        <owl-carousel
+          [options]="customOptions"
+          [items]="items"
+          [carouselClasses]="['owl-carousel', 'owl-theme', 'row', 'sliding']"
+        >
+        
+             <div id="SliderImgs" class="big_img col-md-12" *ngFor="let slide of items; let i = index">
+             
+          <img src={{slide}} class="big_cont"> 
         </div> 
+        
+
+        </owl-carousel>
+
+       
 
         <br> <br> <br> <br>
 
@@ -136,4 +149,4 @@
     </div>
 </section>
 
-    
+<ngx-loading [show]="loading" [config]="config"></ngx-loading>

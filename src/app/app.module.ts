@@ -21,8 +21,8 @@ import { ContactComponent } from './view/contact/contact.component';
 import {AgmCoreModule} from '@agm/core';
 import { BlogComponent } from './view/blog/blog.component';
 import { SingleCompComponent } from './view/single-comp/single-comp.component'
-// RECOMMENDED
-import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
+
+import { NgxLoadingModule } from 'ngx-loading';
 
 
 @NgModule({
@@ -49,7 +49,7 @@ import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
     MatNativeDateModule,
     MatIconModule,
     MatSelectModule,
-    BsDatepickerModule.forRoot(),
+    NgxLoadingModule.forRoot({}),
 
     AgmCoreModule.forRoot({
       /* apiKey:'AIzaSyD8CSL2P9dPVAq0efa3yskFoIUUdsxg7PQ' */

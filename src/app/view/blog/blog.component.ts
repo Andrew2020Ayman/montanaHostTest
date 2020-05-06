@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { ngxLoadingAnimationTypes } from "ngx-loading";
 @Component({
   selector: 'app-blog',
   templateUrl: './blog.component.html',
@@ -46,7 +46,25 @@ export class BlogComponent implements OnInit {
       des:"That dominion stars lights dominion divide years for fourth have don't stars is that he earth it first without heaven in place seed it second morning saying."
     }
   ]
+
+  config;
+  loading = true;
   ngOnInit() {
+
+    this.config = {
+      backdropBorderRadius: "3px",
+      backdropBackgroundColour: "#rgb(255, 255, 255,0.5)",
+      animationType: ngxLoadingAnimationTypes.circleSwish,
+      primaryColour:"#009dff",
+      fullScreenBackdrop: true
+    };
+
+    setTimeout(() => {
+      this.loading = false;
+    }, 1700);
+  
+
+
   }
 
 }

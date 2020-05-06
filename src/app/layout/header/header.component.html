@@ -15,7 +15,7 @@
                       ><a 
                       class="navItemRout"
                       [routerLink]="['/Home']"
-                      [ngClass]="{ active: Currrouter == 1 }"
+                      [ngClass]="{ active: Currrouter == '1' }"
                       (click)="Active_Router_Click('1')"
                       > Home </a>
                       </li>
@@ -24,7 +24,7 @@
                            <a
                            class="navItemRout"
                            [routerLink]="['/Rooms']"
-                           [ngClass]="{ active: Currrouter == 2 }"
+                           [ngClass]="{ active: Currrouter == '2' }"
                       (click)="Active_Router_Click('2')"
                            > Rooms </a>
                         </li>
@@ -32,7 +32,7 @@
                       <li class="nav-item  px-3">
                            <a
                            class="navItemRout"
-                           [ngClass]="{ active: Currrouter == 3 }"
+                           [ngClass]="{ active: Currrouter == '3' }"
                       (click)="Active_Router_Click('3')"
                            [routerLink]="['/about']"
                            > About </a>
@@ -44,7 +44,7 @@
                             <button class="dropbtn">
                               <a
                               class="navItemRout"
-                                [ngClass]="{ active: Currrouter == 4 }"
+                                [ngClass]="{ active: Currrouter == '4' }"
                                 (click)="Active_Router_Click('4')"
                                 > Blog 
                               <i class="fa fa-chevron-down blogIcon" style="font-size: small;"></i>
@@ -70,7 +70,7 @@
                         
                            <a
                            class="navItemRout"
-                           [ngClass]="{ active: Currrouter == 5 }"
+                           [ngClass]="{ active: Currrouter == '5' }"
                            (click)="Active_Router_Click('5')"
                            [routerLink]="['/Contact']"
                            > Contact </a>
@@ -124,34 +124,34 @@
   
           
         </div>
-       
+      
           <div class="BookPop">
             <div class="innerPop">
               <h4 class="checktitle"> Check Availability </h4>
               <div class="row">
                 <div class="col-xl-6">
                  
-                  <div class=" form-group">
-                    <input type="text"
-                           placeholder="Check In Date"
-                           class="form-control DtCont"
-                           bsDatepicker
-                           [bsConfig]="{ isAnimated: true }">
-                           <i class="fa fa-caret-down downIc"></i>
-                  </div>
+                  
 
+                  <mat-form-field appearance="outline">
+                   <mat-label>Check In Date</mat-label> 
+                    <input matInput [matDatepicker]="picker" >
+                
+                    <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                    <mat-datepicker #picker></mat-datepicker>
+                  </mat-form-field>
+                  
                 </div>
 
                 <div class="col-xl-6">
                   
-                  <div class=" form-group">
-                    <input type="text"
-                           placeholder="Check Out Date"
-                           class="form-control DtCont "
-                           bsDatepicker
-                           [bsConfig]="{ isAnimated: true }">
-                           <i class="fa fa-caret-down downIc"></i>
-                  </div>
+                  <mat-form-field appearance="outline">
+                    <mat-label>Check In Date</mat-label> 
+                     <input matInput [matDatepicker]="picker1" >
+                 
+                     <mat-datepicker-toggle matSuffix [for]="picker1"></mat-datepicker-toggle>
+                     <mat-datepicker #picker1></mat-datepicker>
+                   </mat-form-field>
             
                 </div>
 

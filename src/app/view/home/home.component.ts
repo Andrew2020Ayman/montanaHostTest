@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { ngxLoadingAnimationTypes } from "ngx-loading";
 declare var $: any;
 
 @Component({
@@ -13,9 +13,9 @@ export class HomeComponent implements OnInit {
   playBool = false;
   YouTubeVid=false;
 
-
+  
   constructor() { 
-    
+   
   }
 
  
@@ -54,9 +54,20 @@ export class HomeComponent implements OnInit {
       "assets/banner/banner.png"
  
   ];
- 
+  config;
+  loading = true;
   ngOnInit() {
- 
+    this.config = {
+      backdropBorderRadius: "3px",
+      backdropBackgroundColour: "#rgb(255, 255, 255,0.5)",
+      animationType: ngxLoadingAnimationTypes.circleSwish,
+      primaryColour:"#009dff",
+      fullScreenBackdrop: true
+    };
+
+    setTimeout(() => {
+      this.loading = false;
+    }, 1700);
   }
 
   playClick(){
