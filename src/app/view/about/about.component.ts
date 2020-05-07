@@ -10,12 +10,13 @@ export class AboutComponent implements OnInit {
   constructor() { }
   config;
   loading = true;
-  items=[
+  array_image=[
+    "assets/banner/about_banner.png",
     "assets/banner/about_banner.png",
     "assets/banner/banner2.png"
   ];
 
-  customOptions: any = {
+ /*  customOptions: any = {
     loop: true,
     dots: false,
     nav: true,
@@ -38,8 +39,63 @@ export class AboutComponent implements OnInit {
       }
     }
   };
+ */
+  
+ 
+customOptions: any = {
+  loop: true,
+  dots: false,
+  navSpeed: 700,
 
-  ngOnInit() {
+  responsive: {
+    0: {
+      items: 1
+    },
+    400: {
+      items: 1
+    },
+    740: {
+      items: 1
+    },
+    940: {
+      items: 1
+    }
+  },
+  nav: true, // Show next and prev buttons
+  navText: [
+    "<img src='assets/Group 783.png'>",
+    "<img src='assets/Group 782.png'>"
+  ]
+};
+
+ ngOnInit() {
+
+  this.customOptions = {
+    loop: true,
+    dots: false,
+    navSpeed: 700,
+
+    responsive: {
+      0: {
+        items: 1
+      },
+      400: {
+        items: 1
+      },
+      740: {
+        items: 1
+      },
+      940: {
+        items: 1
+      }
+    },
+    nav: true, // Show next and prev buttons
+    navText: [
+      "<img src='assets/Group 783.png'>",
+      "<img src='assets/Group 782.png'>"
+    ]
+  };
+
     this.config = {
       backdropBorderRadius: "3px",
       backdropBackgroundColour: "#rgb(255, 255, 255,0.5)",
@@ -52,8 +108,6 @@ export class AboutComponent implements OnInit {
       this.loading = false;
     }, 1700);
   
-
-    document.getElementById("SliderImgs").style.backgroundImage=this.items[0];
   }
 
 }

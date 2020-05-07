@@ -224,3 +224,56 @@ cursor: pointer;
     text-decoration: none;
     color: #1f1f1f;
 }
+
+::ng-deep  .owl-next {
+    position: absolute;
+    bottom: 100px;
+    left: 600px;
+    background: transparent !important;
+    padding: 8px 7px !important;
+    border: 1px solid #fefefe !important;
+    border-radius: 50% !important;
+    margin-left: 48% !important;
+    margin-bottom: 14% !important;
+  }
+  ::ng-deep  .owl-next img {
+    padding: 10px 9px !important;
+  }
+  ::ng-deep  .owl-prev {
+    position: absolute;
+    bottom: 100px;
+    left: 30px;
+    padding: 8px 7px !important;
+    background: transparent !important;
+    border: 1px solid #fefefe !important;
+    border-radius: 50% !important;
+    margin-left: 1% !important;
+    margin-bottom: 14% !important;
+  }
+  ::ng-deep  .owl-prev img {
+    padding: 10px 9px !important;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  .arro {
+    position: absolute;
+    top: 13%;
+    left: 3%;
+    width: 100px;
+    height: 100px;
+    z-index: 1;
+  }
+  
+  ::ng-deep  .owl-theme {
+    display: block;
+    height: 100%;
+  }
+  ::ng-deep  .owl-carousel .owl-stage-outer {
+    height: 100%;
+  }

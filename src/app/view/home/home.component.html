@@ -3,14 +3,28 @@
     <div class="container-fluid">
     
      
-          <div   class=" img_Slider" > 
-            
-            <div class="img_cont" >
-             </div> 
-            
-            <h1 class="Title_cont"> Life is Beautiful </h1>
-             <h3 class="Des_cont"> Unlock to enjoy the view of Martine </h3> 
+        
+
+        <owl-carousel
+        [options]="customOptions"
+        [carouselClasses]="['owl-theme', 'sliding']"
+      >
+        <div class="item" *ngFor="let slide of array_image; let id = index">
+          <div class="m">
+            <div class="overlay"></div>
+            <img src="{{ slide.imgPath }}" class="img-fluid w-100 " />
+          </div>
+
+          <h1 class="Title_cont"> {{slide.title}} </h1>
+          <h3 class="Des_cont"> {{ slide.des }} </h3> 
+
         </div>
+      </owl-carousel>
+            <!-- ///// -->
+
+
+
+
  <br><br><br><br> <br><br>
 
         <div class="row">

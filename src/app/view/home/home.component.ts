@@ -19,21 +19,26 @@ export class HomeComponent implements OnInit {
   }
 
  
-  photos=[
-     "assets/banner/banner2.png",
-     "assets/banner/banner.png"
+  array_image=[
+    {
+      imgPath: "assets/banner/banner2.png",
+      title: "Life is Beautiful", 
+      des: "Unlock to enjoy the view of Martine" ,
+    },
+    {
+      imgPath: "assets/banner/banner.png",
+      title: "Montana Resort" , 
+      des: "Unlock to enjoy the view of Martine" ,
+    }
+     
+     
 ]; 
+
   customOptions: any = {
     loop: true,
     dots: false,
-    nav: false,
-    slideBy: "1",
-    mouseDrag: true,
-    touchDrag: true,
-    
-    autoWidth:true,
-    lazyLoad: true,
-
+    navSpeed: 700,
+  margin:10,
     responsive: {
       0: {
         items: 1
@@ -42,21 +47,50 @@ export class HomeComponent implements OnInit {
         items: 1
       },
       740: {
-        items: 1,
+        items: 1
       },
       940: {
-        items: 1,
+        items: 1
       }
-    }
+    },
+    nav: true, // Show next and prev buttons
+    navText: [
+      "<img src='assets/Group 783.png'>",
+      "<img src='assets/Group 782.png'>"
+    ]
   };
-  arr_img = [
-    " assets/banner/banner2.png",
-      "assets/banner/banner.png"
- 
-  ];
+
+  
   config;
   loading = true;
   ngOnInit() {
+
+    this.customOptions = {
+      loop: true,
+      dots: false,
+      navSpeed: 700,
+      margin:10,
+      responsive: {
+        0: {
+          items: 1
+        },
+        400: {
+          items: 1
+        },
+        740: {
+          items: 1
+        },
+        940: {
+          items: 1
+        }
+      },
+      nav: true, // Show next and prev buttons
+      navText: [
+        "<img src='assets/Group 783.png'>",
+        "<img src='assets/Group 782.png'>"
+      ]
+    };
+    
     this.config = {
       backdropBorderRadius: "3px",
       backdropBackgroundColour: "#rgb(255, 255, 255,0.5)",

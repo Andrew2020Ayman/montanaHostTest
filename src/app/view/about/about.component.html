@@ -34,7 +34,7 @@
         <br> <br> <br>
 
 
-        <owl-carousel
+        <!-- <owl-carousel
           [options]="customOptions"
           [items]="items"
           [carouselClasses]="['owl-carousel', 'owl-theme', 'row', 'sliding']"
@@ -46,8 +46,23 @@
         </div> 
         
 
-        </owl-carousel>
+        </owl-carousel> -->
 
+
+        <!-- //// -->
+
+        <owl-carousel
+    [options]="customOptions"
+    [carouselClasses]="['owl-theme', 'sliding']"
+  >
+    <div class="item" *ngFor="let slide of array_image; let id = index">
+      <div class="m">
+        <div class="overlay"></div>
+        <img src="{{ slide }}" class="img-fluid w-100 " />
+      </div>
+    </div>
+  </owl-carousel>
+        <!-- ///// -->
        
 
         <br> <br> <br> <br>
