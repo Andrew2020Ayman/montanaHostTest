@@ -10,7 +10,7 @@
     top: -127px;
     left: -15px;
     position: relative;
-    width: 102%;
+    width: 104%;
     height: 106px;
   
     background-image: url("../../../assets/banner/bradcam2.png");
@@ -309,3 +309,98 @@ cursor: pointer;
     color: #1f1f1f;
 }
 
+/* ------------------ */
+@media only screen and (min-width: 1600px) and (max-width: 1800px) {
+    .Title_cont {
+        left: 35%;
+        top: 54%;
+        font-size: 77px;
+    }
+
+    .titleI {
+        font-size: 24px;
+    }
+    .titleII {
+        font-size: 55px;
+        margin-left: 3%;
+    }
+    .offer_title {
+        font-size: 28px;
+    }
+    .offerList li {
+        font-size: 25px;
+        margin-left: 3%;
+    }
+    .book_btn {
+        font-size: 24px;
+    }
+    .bkNowBtn {
+        border: none;
+        font-size: 26px;
+    }
+    .roomTxt span {
+        font-size: 19px;
+    }
+    .roomTxt h3 {
+        font-size: 34px;
+    }
+    .Res {
+        font-size: 38px;
+    }
+    .tel_cont {
+        font-size: 29px;
+    }
+    .img_Slider {
+        width: 104%;
+        height: 81vh;
+    }
+
+}
+
+@media only screen and (min-width: 1800px) {
+
+    .Title_cont {
+        left: 35%;
+        top: 54%;
+        font-size: 77px;
+    }
+
+    .titleI {
+        font-size: 24px;
+    }
+    .titleII {
+        font-size: 55px;
+        margin-left: 3%;
+    }
+    .offer_title {
+        font-size: 28px;
+    }
+    .offerList li {
+        font-size: 25px;
+        margin-left: 3%;
+    }
+    .book_btn {
+        font-size: 24px;
+    }
+    .bkNowBtn {
+        border: none;
+        font-size: 26px;
+    }
+    .roomTxt span {
+        font-size: 19px;
+    }
+    .roomTxt h3 {
+        font-size: 34px;
+    }
+    .Res {
+        font-size: 38px;
+    }
+    .tel_cont {
+        font-size: 29px;
+    }
+
+    .img_Slider {
+        width: 104%;
+        height: 81vh;
+    }
+}

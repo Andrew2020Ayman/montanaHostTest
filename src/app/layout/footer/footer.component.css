@@ -110,3 +110,106 @@ i:hover{
     color: #BABABA;
     padding-top: 8%;
 }
+
+/* ------------------- */
+@media only screen and (min-width: 1600px) and (max-width: 1800px) {
+
+    .secTxt {
+        color: white;
+        font-size: 34px;
+    }
+
+    .desTxt {
+        font-size: 25px;
+    }
+    .getDir {
+        outline: none;
+        color: #919191;
+        font-size: 25px;
+    }
+
+    .Email_footer {
+        width: 107%;
+        height: 23%;
+        padding-left: 5%;
+        font-size: 22px;
+    }
+    .sign_btn {
+        position: absolute;
+        right: -4%;
+        top: 31.7%;
+        height: 22.5%;
+        border: none;
+        font-size: 19px;
+        color: #fff;
+        background: #009DFF;
+        padding: 10px;
+        padding: 0 24px;
+        cursor: pointer;
+    }
+    .subTxt {
+        font-size: 21px;
+    }
+    .copTxt {
+        font-size: 20px;
+    }
+    i {
+        font-size: 25px;
+    }
+.footRow{
+    padding-top: 3%;
+    padding-bottom: 2%;
+}
+
+}
+
+@media only screen and (min-width: 1800px){
+
+    .secTxt {
+        color: white;
+        font-size: 34px;
+    }
+
+    .desTxt {
+        font-size: 25px;
+    }
+    .getDir {
+        outline: none;
+        color: #919191;
+        font-size: 25px;
+    }
+
+    .Email_footer {
+        width: 107%;
+        height: 23%;
+        padding-left: 5%;
+        font-size: 22px;
+    }
+    .sign_btn {
+        position: absolute;
+        right: -4%;
+        top: 31.7%;
+        height: 22.5%;
+        border: none;
+        font-size: 19px;
+        color: #fff;
+        background: #009DFF;
+        padding: 10px;
+        padding: 0 24px;
+        cursor: pointer;
+    }
+    .subTxt {
+        font-size: 21px;
+    }
+    .copTxt {
+        font-size: 20px;
+    }
+    i {
+        font-size: 25px;
+    }
+.footRow{
+    padding-top: 3%;
+    padding-bottom: 2%;
+}
+
+}

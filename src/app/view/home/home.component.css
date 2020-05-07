@@ -569,3 +569,219 @@ cursor: pointer;
     width: 113%;
 }
 
+/* ------------------------- */
+
+@media only screen and (min-width: 1600px) and (max-width: 1800px) {
+
+    .Title_cont{
+        font-size: 114px;
+        left: 26%;
+    }
+    .Des_cont {
+        font-size: 28px;
+        left: 35%;
+    }
+
+    ::ng-deep  .owl-next {
+        margin-left: 56% !important;
+        
+    }
+
+    .about_head {
+        font-size: 27px;
+    }
+    .about_title {
+        font-size: 53px;
+    }    
+
+    .about_des {
+        font-size: 21px;
+    }
+    .learnBtn {
+        font-size: 23px;
+    }
+    .ImgII {
+        margin-left: 2%;
+        margin-top: 9%;
+        width: 40%;
+    }
+    .ImgI {
+        margin-top: 0%;
+        width: 40%;
+    }
+    .part1 {
+        margin-top: 4%;
+    }
+    .titleI {
+        font-size: 24px;
+        margin-left: 13%;
+    }
+    .titleII {
+        color: #1F1F1F;
+    }
+    .offer_title {
+        font-size: 27px;
+    }
+    .offerList li {
+        font-size: 24px;
+    }
+    .book_btn {
+        font-size: 24px;
+    }
+    .vidTxtI {
+        color: #fff;
+        font-size: 20px;
+        padding-left: 14%;
+    }
+    .vidTxtII {
+        color: #fff;
+        font-size: 52px;
+    }
+    .vidTxtIII {
+        color: #fff;
+        font-size: 52px;
+    }
+    .playBtn i {
+        margin-left: 42%;
+        margin-top: 36%;
+        font-size: 23px;
+    }
+    .playBtn {
+    width: 80px;
+    height: 80px;
+    }
+
+    .titleIF {
+        color: #009DFF;
+        font-size: 24px;
+    }
+    .bkNowBtn {
+        font-size: 26px;
+    }
+    .roomTxt span {
+        font-size: 17px;
+    }
+    .Res {
+        font-size: 37px;
+    }
+
+    .tel_cont {
+        font-size: 26px;
+    }
+
+
+}
+
+@media only screen and (min-width: 1800px) {
+    .Title_cont{
+        font-size: 122px;
+        left: 26%;
+    }
+    .Des_cont {
+        font-size: 30px;
+        left: 36%;
+    }
+    ::ng-deep  .owl-next {
+        margin-left: 58% !important;
+    }
+
+    .about_head {
+        font-size: 27px;
+    }
+    .about_title {
+        font-size: 53px;
+    }    
+
+    .about_des {
+        font-size: 21px;
+    }
+    .learnBtn {
+        font-size: 23px;
+    }
+    .ImgII {
+        margin-left: 2%;
+        margin-top: 9%;
+        width: 40%;
+    }
+    .ImgI {
+        margin-top: 0%;
+        width: 40%;
+    }
+    .part1 {
+        margin-top: 4%;
+    }
+    .titleI {
+        font-size: 24px;
+        margin-left: 13%;
+    }
+    .titleII {
+        color: #1F1F1F;
+    }
+    .offer_title {
+        font-size: 27px;
+    }
+    .offerList li {
+        font-size: 24px;
+    }
+    .book_btn {
+        font-size: 24px;
+    }
+    .vidTxtI {
+        color: #fff;
+        font-size: 20px;
+        padding-left: 14%;
+    }
+    .vidTxtII {
+        color: #fff;
+        font-size: 52px;
+    }
+    .vidTxtIII {
+        color: #fff;
+        font-size: 52px;
+    }
+    .playBtn i {
+        margin-left: 42%;
+        margin-top: 36%;
+        font-size: 23px;
+    }
+    .playBtn {
+    width: 80px;
+    height: 80px;
+    }
+
+    .titleIF {
+        color: #009DFF;
+        font-size: 24px;
+    }
+    .bkNowBtn {
+        font-size: 26px;
+    }
+    .roomTxt span {
+        font-size: 17px;
+    }
+    .Res {
+        font-size: 37px;
+    }
+
+    .tel_cont {
+        font-size: 26px;
+    }
+    
+}
+
+
+@media only screen and (min-width: 1900px){
+
+    .Title_cont{
+        left: 27%;
+    }
+
+    .Des_cont {
+        left: 36%;
+    }
+    ::ng-deep  .owl-next {
+        margin-left: 52% !important;
+    }
+
+} 
+/* ------------------------- */

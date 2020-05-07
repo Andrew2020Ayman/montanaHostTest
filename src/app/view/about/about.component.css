@@ -229,9 +229,9 @@ cursor: pointer;
     position: absolute;
     bottom: 100px;
     left: 600px;
-    background: transparent !important;
+   
     padding: 8px 7px !important;
-    border: 1px solid #fefefe !important;
+    background-color: rgba(255,255,255,0.2) !important;
     border-radius: 50% !important;
     margin-left: 48% !important;
     margin-bottom: 14% !important;
@@ -244,8 +244,7 @@ cursor: pointer;
     bottom: 100px;
     left: 30px;
     padding: 8px 7px !important;
-    background: transparent !important;
-    border: 1px solid #fefefe !important;
+    background-color: rgba(255,255,255,0.2) !important;
     border-radius: 50% !important;
     margin-left: 1% !important;
     margin-bottom: 14% !important;
@@ -277,3 +276,193 @@ cursor: pointer;
   ::ng-deep  .owl-carousel .owl-stage-outer {
     height: 100%;
   }
+
+  /* ------------------ */
+@media only screen and (min-width: 1600px) and (max-width: 1800px) {
+   
+    .Title_cont {
+        left: 35%;
+        top: 54%;
+        font-size: 77px;
+    }
+
+    .titleI {
+        font-size: 24px;
+    }
+    .titleII {
+        font-size: 55px;
+        margin-left: 3%;
+    }
+    .offer_title {
+        font-size: 28px;
+    }
+    .offerList li {
+        font-size: 25px;
+        margin-left: 3%;
+    }
+    .book_btn {
+        font-size: 24px;
+    }
+    .bkNowBtn {
+        border: none;
+        font-size: 26px;
+    }
+    .roomTxt span {
+        font-size: 19px;
+    }
+    .roomTxt h3 {
+        font-size: 34px;
+    }
+    .Res {
+        font-size: 38px;
+    }
+    .tel_cont {
+        font-size: 29px;
+    }
+
+    .img_Slider {
+        width: 104%;
+        height: 81vh;
+    }
+
+    .about_head {
+        font-size: 27px;
+    }
+    .about_title {
+        font-size: 53px;
+    }    
+
+    .about_des {
+        font-size: 21px;
+    }
+    .learnBtn {
+        font-size: 23px;
+    }
+    .ImgII {
+        margin-left: 2%;
+        margin-top: 9%;
+        width: 40%;
+    }
+    .ImgI {
+        margin-top: 0%;
+        width: 40%;
+    }
+
+   ::ng-deep .owl-next img {
+        padding: 19px 18px !important;
+    }
+    ::ng-deep .owl-next {
+        margin-left: 59% !important;
+    }    
+    ::ng-deep .owl-prev img {
+        padding: 19px 18px !important;
+    }
+
+    ::ng-deep .owl-theme {
+        display: block;
+        height: 100%;
+        margin-left: 2.2%;
+    }
+    .big_title {
+        font-size: 33px;
+    }
+    .sml_title {
+        font-size: 22px;
+    }
+
+}
+
+@media only screen and (min-width: 1800px) {
+
+    
+    .Title_cont {
+        left: 35%;
+        top: 54%;
+        font-size: 77px;
+    }
+
+    .titleI {
+        font-size: 24px;
+    }
+    .titleII {
+        font-size: 55px;
+        margin-left: 3%;
+    }
+    .offer_title {
+        font-size: 28px;
+    }
+    .offerList li {
+        font-size: 25px;
+        margin-left: 3%;
+    }
+    .book_btn {
+        font-size: 24px;
+    }
+    .bkNowBtn {
+        border: none;
+        font-size: 26px;
+    }
+    .roomTxt span {
+        font-size: 19px;
+    }
+    .roomTxt h3 {
+        font-size: 34px;
+    }
+    .Res {
+        font-size: 38px;
+    }
+    .tel_cont {
+        font-size: 29px;
+    }
+
+    .img_Slider {
+        width: 104%;
+        height: 81vh;
+    }
+
+    .about_head {
+        font-size: 27px;
+    }
+    .about_title {
+        font-size: 53px;
+    }    
+
+    .about_des {
+        font-size: 21px;
+    }
+    .learnBtn {
+        font-size: 23px;
+    }
+    .ImgII {
+        margin-left: 2%;
+        margin-top: 9%;
+        width: 40%;
+    }
+    .ImgI {
+        margin-top: 0%;
+        width: 40%;
+    }
+
+   ::ng-deep .owl-next img {
+        padding: 19px 18px !important;
+    }
+    ::ng-deep .owl-next {
+        margin-left: 59% !important;
+    }    
+    ::ng-deep .owl-prev img {
+        padding: 19px 18px !important;
+    }
+
+    ::ng-deep .owl-theme {
+        display: block;
+        height: 100%;
+        margin-left: 1.8%;
+    }
+    .big_title {
+        font-size: 33px;
+    }
+    .sml_title {
+        font-size: 22px;
+    }
+
+}
