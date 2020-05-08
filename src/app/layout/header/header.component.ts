@@ -26,8 +26,12 @@ export class HeaderComponent implements OnInit {
   ];
 
 
+navBarOpen = false;
+
   Currrouter = '1';
   public urL: string = "";
+
+
   constructor(private router: Router) {
     this.urL = window.location.href;
     console.log( this.urL);
@@ -47,6 +51,12 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit() {
     
+
+    
+    $(".menu-collapsed").click(function () {
+      $(this).toggleClass("menu-expanded");
+    });
+
     this.urL = window.location.href;
     console.log( this.urL);
     let url = this.urL.split('http://localhost:4200/');
@@ -61,19 +71,25 @@ export class HeaderComponent implements OnInit {
 
 console.log(this.Currrouter);
 
+
+        document.getElementById("myDiv").style.position="absolute"
+        document.getElementById("myDiv").style.backgroundColor = "transparent";
+        document.getElementById("myDiv").style.height="0";
+        document.getElementById("rowD").style.marginTop="-10%";
+
     $(window).scroll(function(){
      // $('.nav_cont').toggleClass('scrolled', $(this).scrollTop() > 50);
      
       if($(this).scrollTop() >250){
         document.getElementById("myDiv").style.position="fixed"
         document.getElementById("myDiv").style.backgroundColor = "black";
-        document.getElementById("rowD").style.marginTop="-9%";
+        document.getElementById("rowD").style.marginTop="-19%";
         document.getElementById("myDiv").style.height="20%";
       }else{
         document.getElementById("myDiv").style.position="absolute"
         document.getElementById("myDiv").style.backgroundColor = "transparent";
         document.getElementById("myDiv").style.height="0";
-        document.getElementById("rowD").style.marginTop="0";
+        document.getElementById("rowD").style.marginTop="-10%";
       }
       
     });
@@ -81,6 +97,21 @@ console.log(this.Currrouter);
    
 
   
+  }
+
+
+  ngAfterViewInit() {
+    $("#sidemenu_toggle").on("click", function () {
+      $(".side-menu").addClass("side-menu-active"),
+        $("#close_side_menu").fadeIn(700);
+    }),
+      $("#close_side_menu").on("click", function () {
+        $(".side-menu").removeClass("side-menu-active"), $(this).fadeOut(200);
+      }),
+      $("#btn_sideNavClose").on("click", function () {
+        $(".side-menu").removeClass("side-menu-active"),
+          $("#close_side_menu").fadeOut(200);
+      });
   }
 
   Active_Router_Click(RouterNumber){
@@ -95,5 +126,7 @@ console.log(this.Currrouter);
     this.BookHeader = false;
     document.querySelector("body").style.overflow="scroll";
   }
+
+ 
 
 }

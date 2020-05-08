@@ -323,7 +323,9 @@ cursor: pointer;
     .img_Slider {
         width: 104%;
         height: 81vh;
+        top: -142px;
     }
+    
 
     .about_head {
         font-size: 27px;
@@ -418,7 +420,9 @@ cursor: pointer;
     .img_Slider {
         width: 104%;
         height: 81vh;
+        top: -142px;
     }
+    
 
     .about_head {
         font-size: 27px;
@@ -464,5 +468,157 @@ cursor: pointer;
     .sml_title {
         font-size: 22px;
     }
+
+}
+
+@media only screen and (max-width: 767px) {
+    .img_Slider {
+        width: 110%;
+    }
+    .Title_cont{
+        left: 10%;
+    top: 64%;
+    font-size: 41px;
+    }
+
+    .tele {
+        border: 1px solid #bababa;
+        padding: 49px 11px 31px 7px;
+        margin-left: 9%;
+        margin-right: 7%;
+        position: relative;
+    }
+    .Res {
+        font-size: 17px;
+        color: #1f1f1f;
+        font-weight: 400;
+        margin-bottom: 0;
+        line-height: 28px;
+        margin-top: 0%;
+    }
+    .tel_cont {
+        background: #009dff;
+        color: #fff;
+        padding: 13px 54px;
+        border-radius: 30px;
+        display: inline-block;
+        font-size: 13px;
+        border: 1px solid transparent;
+        margin-left: 3%;
+        margin-top: 5%;
+        text-decoration: none;
+        transition: 0.5s;
+    }
+    .padding-0 {
+        overflow: inherit;
+    }
+    .insta_img {
+        width: max-content;
+    }
+    .titleIF {
+        margin-left: 0;
+    }
+    .titleII {
+        font-size: 31px;
+        margin-left: -38%;
+    }
+    .Room_Section {
+        width: 103.1%;
+        margin-left: -5%;
+    }
+    .Room {
+        position: relative;
+        width: 106%;
+        float: left;
+    }
+  .roomTxt{
+    bottom: 4px;
+    position: absolute;
+  }
+  .roomTxt h3 {
+    font-size: 23px;
+  }
+  .roomTxt span {
+    font-size: 14px;
+  }
+  .roomDiv:hover .room_img {
+    width: 100%;
+    transform: scale(1.1);
+}
+
+.titleI {
+    margin-left: -1%;
+}
+
+.titleII {
+    font-size: 30px;
+    margin-left: -39%;
+}
+.offer_img {
+    margin-left: -4%;
+    margin-right: -2%;
+overflow: hidden;
+}
+
+.off_img_cont {
+    width: 81%;
+}
+.offer_imgII {
+    margin-left: -1%;
+}
+.offer_imgIII {
+    margin-left: -1%;
+}
+.book_btn {
+    background-color: white;
+    border: 1px solid #009dff;
+    color: #009dff;
+    padding: 12px 30px 10px 30px;
+    position: relative;
+    width: 103%;
+    margin-bottom: 30%;
+}
+.part1 {
+    margin-left: 7%;
+}
+.about_title {
+    font-size: 36px;
+}
+.img_Part {
+    margin-left: 5%;
+}
+.ImgI {
+    margin-top: 5%;
+    width: 48%;
+}
+.ImgII {
+    margin-left: 2%;
+    margin-top: 19%;
+    width: 48%;
+}
+::ng-deep .owl-next , ::ng-deep .owl-prev{
+    display: none !important;
+}
+::ng-deep  .about .owl-carousel .owl-item img {
+    min-width: 137% !important;
+}
+
+.BTI {
+    margin-left: 7%;
+    margin-right: 8%;
+}
+.STI {
+    margin-left: 6%;
+    margin-right: 7%;
+}
+
+.BTII {
+    margin-left: 7%;
+    margin-right: 19%;
+}
+.STII {
+    margin-left: 6%;
+    margin-right: 8%;
+}
 
 }

@@ -556,6 +556,7 @@ cursor: pointer;
   ::ng-deep  .owl-theme {
     display: block;
     height: 100%;
+    margin-left: 0 !important;
   }
   ::ng-deep  .owl-carousel .owl-stage-outer {
     height: 100%;
@@ -784,4 +785,196 @@ cursor: pointer;
     }
 
 } 
+
+@media only screen and (max-width: 767px) {
+    ::ng-deep .owl-next , ::ng-deep .owl-prev{
+        display: none !important;
+    }
+    
+    ::ng-deep .owl-carousel .owl-item img {
+        display: block;
+        height: 104vh;
+         width: 90% !important;
+        min-width: 279% !important; 
+    }
+    ::ng-deep .owl-stage-outer * {
+        height:100%;
+   }
+   ::ng-deep .owl-carousel .owl-stage-outer {
+    height: 100%;
+    margin-left: -4.1%;
+    }
+  
+  ::ng-deep .owl-carousel {
+        width: 110%;
+    } 
+    .Title_cont {
+        z-index: 1;
+        font-family: 'Raleway', sans-serif;
+        color: white;
+        font-size: 35px;
+        position: absolute;
+        font-weight: 400;
+        left: 19%;
+        top: 38%;
+    }
+    .Des_cont {
+        z-index: 1;
+        font-family: 'Raleway', sans-serif;
+        color: white;
+        font-size: 12px;
+        position: absolute;
+        font-weight: 400;
+        left: 26%;
+        top: 44%;
+    }
+    .part1 {
+        margin-left: 7%;
+    }
+    .about_title {
+        font-size: 36px;
+    }
+    .img_Part {
+        margin-left: 5%;
+    }
+    .ImgI {
+        margin-top: 5%;
+        width: 48%;
+    }
+    .ImgII {
+        margin-left: 2%;
+        margin-top: 19%;
+        width: 48%;
+    }
+    .titleI {
+        margin-left: -1%;
+    }
+
+    .titleII {
+        font-size: 36px;
+        margin-left: -29%;
+    }
+    .offer_img {
+    margin-left: 0%;
+    margin-right: -2%;
+    overflow: hidden;
+    }
+
+    .off_img_cont {
+        width: 81%;
+    }
+    .book_btn {
+        background-color: white;
+        border: 1px solid #009dff;
+        color: #009dff;
+        padding: 12px 30px 10px 30px;
+        position: relative;
+        width: 103%;
+    }
+    .videoImg {
+        background-size: cover;
+        background-position: center;
+        width: 108.3%;
+        height: 57vh;
+        margin-left: -11px;
+    }
+    .overL {
+        background: linear-gradient(rgba(0,0,0, 0.6), rgba(0,0,0,0.35));
+    }
+    .vidTxtI {
+        color: #fff;
+        font-size: 14px;
+        padding-left: 3%;
+    }
+    .vidTxtII {
+        color: #fff;
+        font-size: 26px;
+        margin-left: -19%;
+    }
+    .vidTxtIII {
+        font-size: 26px;
+        padding-left: 21%;
+    }
+    .playBtn {
+        margin-left: 14%;
+    }
+    .videoSec {
+        z-index: 11111;
+        width: 84%;
+        height: 64vh;
+        margin-left: 9%;
+        margin-top: 15%;
+        position: relative;
+    }
+    .titleIF {
+        margin-left: 4%;
+    }
+    .titleII {
+        font-size: 26px;
+
+        margin-left: -26%;
+    }
+    .Room {
+        position: relative;
+        width: 106%;
+        float: left;
+    }
+  .roomTxt{
+    bottom: 4px;
+    position: absolute;
+  }
+  .roomTxt h3 {
+    font-size: 23px;
+  }
+  .roomTxt span {
+    font-size: 14px;
+  }
+  .roomDiv:hover .room_img {
+    width: 100%;
+    transform: scale(1.1);
+}
+    .bkNowBtn {
+        transform: translate3d(199px, -47px, 0);
+    }
+ /*    .roomDiv:hover .bkNowBtn {
+        transform: translate3d(69px, 61px, 0);
+    } */
+
+    .tele {
+        border: 1px solid #bababa;
+        padding: 49px 11px 31px 7px;
+        margin-left: 20%;
+        margin-right: 7%;
+        position: relative;
+        margin-top: 255%;
+    }
+    .Res {
+        font-size: 17px;
+        color: #1f1f1f;
+        font-weight: 400;
+        margin-bottom: 0;
+        line-height: 28px;
+        margin-top: 0%;
+    }
+    .tel_cont {
+        background: #009dff;
+        color: #fff;
+        padding: 13px 54px;
+        border-radius: 30px;
+        display: inline-block;
+        font-size: 13px;
+        border: 1px solid transparent;
+        margin-left: 3%;
+        margin-top: 5%;
+        text-decoration: none;
+        transition: 0.5s;
+    }
+
+    .padding-0 {
+        overflow: inherit;
+    }
+    .insta_img {
+        width: max-content;
+    }
+  }
 /* ------------------------- */

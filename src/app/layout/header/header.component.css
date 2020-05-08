@@ -5,6 +5,7 @@
     z-index: 10;
     transition: 500ms ease;
     top: 0;
+
     height: 0;
     position: absolute;
 
@@ -213,7 +214,7 @@ table {
 .Book_sec{
     position: relative;
     margin-left: 40%;
-    margin-top: 25%;
+    margin-top: 7%;
 }
 .iCons{
     padding-right: 25px;
@@ -426,6 +427,120 @@ padding-bottom: 5%;
   left: 180%;
 }
 
+/*--------------------------------------------*/
+
+.Bruger_Nav {
+  display: none;
+}
+
+.b-a,
+.bar,
+.bar:before,
+.bar:after {
+  transition: all 0.25s;
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 6px;
+  width: 30px;
+  border-radius: 15px;
+  background-color: white;
+}
+.menu-collapsed {
+  transition: all 0.25s;
+}
+.menu-collapsed ul {
+  transition: all 0s;
+  position: fixed;
+  left: -9000px;
+}
+.bar {
+  /* position: fixed; */
+  left: 23px;
+  top: 65px;
+}
+.bar:before {
+  top: -8px;
+}
+.bar:after {
+  top: 8px;
+}
+.b-a-expanded,
+.menu-expanded .bar:before,
+.menu-expanded .bar:after {
+  transition: all 0.25s;
+  top: 0px;
+}
+.menu-expanded {
+  transition: all 0.25s;
+  text-align: center;
+  line-height: 158px;
+  height: 100%;
+  width: 100%;
+  border-radius: 0px;
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 4;
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
+.menu-expanded ul {
+  transition: all 0s;
+  position: relative;
+  left: 25%;
+  top: 61px;
+  z-index: 11;
+  list-style: none;
+}
+
+.menu-expanded ul li {
+  height: 91px;
+}
+.menu-expanded a {
+  transition: all 0.15s;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 16px 26px 13px 26px;
+    color: #fff;
+}
+.menu-expanded a:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  transition: all 0.15s;
+  letter-spacing: 2px;
+  color: #333;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+.menu-expanded .bar {
+  background-color: transparent;
+  transition: all 0.25s;
+}
+.menu-expanded .bar:before {
+  transform: rotate(45deg);
+}
+.menu-expanded .bar:after {
+  transform: rotate(-45deg);
+}
+.row {
+  padding-top: 150px;
+}
+h1 {
+  font-size: 3em;
+}
+h3 {
+  color: #999;
+}
+p {
+  line-height: 160%;
+  letter-spacing: 1px;
+}
+.e {
+  position: fixed;
+  z-index: 1;
+}
+
+/*--------------------------------------------*/
+
 /* ----------------------- */
 
 @media only screen and (min-width: 1600px) and (max-width: 1800px) {
@@ -503,5 +618,49 @@ padding-bottom: 5%;
   left: 41%;
 }
 
+}
+
+@media only screen and (max-width: 767px) {
+  .img_header {
+    width: 56%;
+    margin-left: 25%;
+    margin-top: 0%;
+    padding-bottom: 10%;
+  }
+  .Bruger_Nav {
+    display: block;
+  }
+  .navlistItem{
+    display: none;
+  }
+  .Book_sec{
+    display: none;
+  }
+  .img_logo {
+    position: relative;
+    margin-top: -93px;
+    left: 83%;
+    cursor: pointer;
+    outline: none;
+}
+.imgCont{
+  width: 25%;
+}
+.nav_cont {
+  height: 13% !important;
+}
+.dropbtn {
+  margin-left: -28%;
+}
+.blogIcon {
+  position: absolute;
+  right: 24px;
+  top: 46%;
+}
+
+
+
+ 
+  
 }
 

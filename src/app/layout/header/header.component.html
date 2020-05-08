@@ -117,6 +117,105 @@
                 </div> 
             </div>
         </div>
+
+        <div class="menu-collapsed Bruger_Nav">
+          <div class="bar" ></div>
+          <nav class="e" >
+            <ul>
+              <li class="   "
+              ><a 
+              class=""
+              [routerLink]="['/Home']"
+              
+              (click)="Active_Router_Click('1')"
+              > Home </a>
+              </li>
+
+              <li class="  ">
+                   <a
+                   class=""
+                   [routerLink]="['/Rooms']"
+                  
+              (click)="Active_Router_Click('2')"
+                   > Rooms </a>
+                </li>
+
+              <li class="  ">
+                   <a
+                   class=""
+                   
+              (click)="Active_Router_Click('3')"
+                   [routerLink]="['/about']"
+                   > About </a>
+                </li>
+
+              <!-- <li class="  ">
+                   
+                
+                      <a role="menuitem"
+                      aria-haspopup="true" tabindex="0" 
+                      class=""
+                        
+                        (click)="Active_Router_Click('4')"
+                        > Blog 
+                      <i class="fa fa-chevron-down blogIcon" style="font-size: small;"></i>
+                      </a>
+               
+                  
+                      <ul>
+                        <li>   <a 
+                      
+                          [routerLink]="['/Blog']"
+                          >Blog</a> 
+                        </li>
+
+                        <li>
+                          <a 
+                      [routerLink]="['/SingleBlog']"
+                      >Single-Blog</a>
+                        </li>
+                      </ul>
+                    
+                   
+
+                </li> -->
+
+                <li class="  ">
+                
+                  <a 
+                      
+                          [routerLink]="['/Blog']"
+                          >Blog</a> 
+               </li>
+               <li class="  ">
+                
+                <a 
+                [routerLink]="['/SingleBlog']"
+                >Single-Blog</a>
+             </li>
+
+              
+              <li class="  ">
+                
+                   <a
+                   class=""
+                   
+                   (click)="Active_Router_Click('5')"
+                   [routerLink]="['/Contact']"
+                   > Contact </a>
+                </li>
+
+
+             <!-- 
+              <li><a [routerLink]="['/Home']">Home</a></li>
+              <li><a [routerLink]="['/Nearest']">Rooms</a></li>
+              <li><a [routerLink]="['Resources']">About</a></li>
+              <li><a [routerLink]="['/Reservation']">Blog</a></li>
+              <li><a [routerLink]="['/terms']">Contact</a></li> -->
+            </ul>
+          </nav>
+        </div>
+
     </nav>
 
     <div class="vidDiv" *ngIf="BookHeader">

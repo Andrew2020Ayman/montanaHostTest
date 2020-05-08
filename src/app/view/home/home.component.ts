@@ -38,7 +38,7 @@ export class HomeComponent implements OnInit {
     loop: true,
     dots: false,
     navSpeed: 700,
-  margin:10,
+  margin:35,
     responsive: {
       0: {
         items: 1
@@ -69,7 +69,7 @@ export class HomeComponent implements OnInit {
       loop: true,
       dots: false,
       navSpeed: 700,
-      margin:10,
+      margin:35,
       responsive: {
         0: {
           items: 1
@@ -112,7 +112,7 @@ export class HomeComponent implements OnInit {
   ReturnToBook(){
     this.playBool = !this.playBool;
     this.YouTubeVid = false;
-    document.querySelector("body").style.overflow="scroll";
+    document.querySelector("body").style.overflowY="scroll";
   }
 
 
