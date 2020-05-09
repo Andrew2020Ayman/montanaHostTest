@@ -522,7 +522,7 @@ padding-bottom: 5%;
   transform: rotate(-45deg);
 }
 .row {
-  padding-top: 150px;
+  padding-top: 112px;
 }
 h1 {
   font-size: 3em;
@@ -564,7 +564,7 @@ p {
   
 }
 .Book_sec{
-  margin-left: 47%;
+  margin-left: 41%;
 }
 
 .img_logo{
@@ -578,6 +578,9 @@ p {
 }
 .img_logo{
   left: 41%;
+}
+.row {
+  padding-top: 146px;
 }
 }
 
@@ -617,7 +620,9 @@ p {
 .img_logo{
   left: 41%;
 }
-
+.row {
+  padding-top: 146px;
+}
 }
 
 @media only screen and (max-width: 767px) {

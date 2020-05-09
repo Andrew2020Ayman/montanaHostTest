@@ -630,3 +630,438 @@ p {
             width: 100%;
         }
     }
+
+    @media only screen and (min-width: 1600px) and (max-width: 1800px) {
+   
+        .Title_cont {
+            left: 40%;
+            top: 54%;
+            font-size: 77px;
+    
+        }
+    
+        .titleI {
+            font-size: 24px;
+        }
+        .titleII {
+            font-size: 55px;
+            margin-left: 3%;
+        }
+        .offer_title {
+            font-size: 28px;
+        }
+        .offerList li {
+            font-size: 25px;
+            margin-left: 3%;
+        }
+        .book_btn {
+            font-size: 24px;
+        }
+        .bkNowBtn {
+            border: none;
+            font-size: 26px;
+        }
+        .roomTxt span {
+            font-size: 19px;
+        }
+        .roomTxt h3 {
+            font-size: 34px;
+        }
+        .Res {
+            font-size: 38px;
+        }
+        .tel_cont {
+            font-size: 29px;
+        }
+    
+        .img_Slider {
+            width: 104%;
+            height: 81vh;
+            top: -142px;
+        }
+        
+    
+        .about_head {
+            font-size: 27px;
+        }
+        .about_title {
+            font-size: 53px;
+        }    
+    
+        .about_des {
+            font-size: 21px;
+        }
+        .learnBtn {
+            font-size: 23px;
+        }
+        .ImgII {
+            margin-left: 2%;
+            margin-top: 9%;
+            width: 40%;
+        }
+        .ImgI {
+            margin-top: 0%;
+            width: 40%;
+        }
+    
+        .big_title {
+            font-size: 33px;
+        }
+        .sml_title {
+            font-size: 22px;
+        }
+    
+        .blogImg {
+            border-radius: 8px;
+            position: relative;
+            width: 98%;
+        }
+        .calender h3 {
+            font-size: 35px;
+        }
+        .calender p {
+            color: white;
+            font-size: 21px;
+        }
+        .BlogTitle {
+            font-size: 32px;
+        }
+        .Bltxt {
+            font-size: 20px;
+            margin-right: 4%;
+        }
+        .CommSec li a {
+            color: #999999;
+            font-size: 20px;
+        }
+        .srchInp {
+            width: 100%;
+            height: 69px;
+            font-size: 23px;
+        }
+        .srchIcon {
+            top: 27%;
+            font-size: 22px;
+        }
+        .srchBtn {
+            font-size: 19px;
+        }
+        .catTitle {
+            font-size: 28px;
+        }
+        .CatList li a {
+            font-size: 21px;
+        }
+        .RecPost li a {
+            font-size: 20px;
+        }
+        p {
+            font-size: 20px;
+        }
+      .RecPost li  img {
+            width: 27%;
+        }
+        .TagList li a {
+            font-size: 19px;
+        }
+        .instList li {
+            padding-left: 8%;
+        }
+        .pageList li {
+            font-size: 21px;
+            margin-left: -1px;
+            width: 52px;
+            height: 48px;
+            margin-right: 10px;
+            
+        }
+    
+        .BlogSection img{
+            width: 100%;
+            border-radius: 16px;
+        }
+    
+        .BlogSection h3{
+            font-size: 39px;
+        }
+        .PrevPart img {
+            width: 15% !important;
+            border-radius: 0;
+        }
+        .nextPart img{
+            width: 27% !important;
+            border-radius: 0;
+        }
+        .detTxt {
+            font-size: 24px;
+        }
+        .commNum {
+            font-size: 28px;
+        }
+        .reptxt {
+            font-size: 20px;
+        }        
+        .TxtArea {
+            width: 100%;
+            height: 201px;
+            font-size: 20px;
+        }
+        .NmSec{
+            font-size: 21px;
+        }
+        .SubSec {
+            width: 100%;
+            height: 51px;
+            font-size: 22px;
+        }
+        .SendBtn {
+            font-size: 24px;
+        }
+        
+
+    }
+    
+    @media only screen and (min-width: 1800px) {
+    
+        
+        .Title_cont {
+            left: 39%;
+            top: 54%;
+            font-size: 77px;
+    
+        }
+    
+       
+        .titleII {
+            font-size: 55px;
+            margin-left: 3%;
+        }
+        .offer_title {
+            font-size: 28px;
+        }
+        .offerList li {
+            font-size: 25px;
+            margin-left: 3%;
+        }
+        .book_btn {
+            font-size: 24px;
+        }
+        .bkNowBtn {
+            border: none;
+            font-size: 26px;
+        }
+        .roomTxt span {
+            font-size: 19px;
+        }
+        .roomTxt h3 {
+            font-size: 34px;
+        }
+        .Res {
+            font-size: 38px;
+        }
+        .tel_cont {
+            font-size: 29px;
+        }
+    
+        .img_Slider {
+            width: 104%;
+            height: 81vh;
+            top: -142px;
+        }
+        
+    
+        .about_head {
+            font-size: 27px;
+        }
+        .about_title {
+            font-size: 53px;
+        }    
+    
+        .about_des {
+            font-size: 21px;
+        }
+        .learnBtn {
+            font-size: 23px;
+        }
+        .ImgII {
+            margin-left: 2%;
+            margin-top: 9%;
+            width: 40%;
+        }
+        .ImgI {
+            margin-top: 0%;
+            width: 40%;
+        }
+    
+        .big_title {
+            font-size: 33px;
+        }
+        .sml_title {
+            font-size: 22px;
+        }
+    
+        .blogImg {
+            border-radius: 8px;
+            position: relative;
+            width: 98%;
+        }
+        .calender h3 {
+            font-size: 35px;
+        }
+        .calender p {
+            color: white;
+            font-size: 21px;
+        }
+        .BlogTitle {
+            font-size: 32px;
+        }
+        .Bltxt {
+            font-size: 20px;
+            margin-right: 4%;
+        }
+        .CommSec li a {
+            color: #999999;
+            font-size: 20px;
+        }
+        .srchInp {
+            width: 100%;
+            height: 69px;
+            font-size: 23px;
+        }
+        .srchIcon {
+            top: 27%;
+            font-size: 22px;
+        }
+        .srchBtn {
+            font-size: 19px;
+        }
+        .catTitle {
+            font-size: 28px;
+        }
+        .CatList li a {
+            font-size: 21px;
+        }
+        .RecPost li a {
+            font-size: 20px;
+        }
+        p {
+            font-size: 24px;
+        }
+      .RecPost li  img {
+            width: 27%;
+        }
+        .TagList li a {
+            font-size: 19px;
+        }
+        .instList li {
+            padding-left: 10%;
+        }
+        .pageList li {
+            font-size: 21px;
+            margin-left: -1px;
+            width: 52px;
+            height: 48px;
+            margin-right: 10px;
+            
+        }
+        .BlogSection img{
+            width: 100%;
+            border-radius: 16px;
+        }
+    
+        .BlogSection h3{
+            font-size: 39px;
+        }
+        .PrevPart img {
+            width: 15% !important;
+            border-radius: 0;
+        }
+        .nextPart img{
+            width: 27% !important;
+            border-radius: 0;
+        }
+        .detTxt {
+            font-size: 24px;
+        }
+        .commNum {
+            font-size: 28px;
+        }
+        .reptxt {
+            font-size: 20px;
+        }        
+        .TxtArea {
+            width: 100%;
+            height: 201px;
+            font-size: 20px;
+        }
+        .NmSec{
+            font-size: 21px;
+        }
+        .SubSec {
+            width: 100%;
+            height: 51px;
+            font-size: 22px;
+        }
+        .SendBtn {
+            font-size: 24px;
+        }
+
+
+    }
+    
+    @media only screen and (max-width: 767px) {
+        .img_Slider {
+            width: 110%;
+        }
+        .Title_cont{
+           left: 39%;
+           top: 64%;
+           font-size: 41px;
+        }
+        .blogImg {
+            border-radius: 8px;
+            position: relative;
+            width: 100%;
+        }
+        .calender {
+            padding: 4% 13% 7% 5%;
+        }
+        .calender h3 {
+            color: white;
+            margin-top: -16%;
+            position: absolute;
+        }
+        .calender p {
+            color: white;
+            font-size: 19px;
+            position: relative;
+            top: 23px;
+        }
+        .BlogDes {
+            box-shadow: -9px 10px 40px -8px rgba(66,64,66,0.47);
+            margin-top: -6%;
+            width: 98%;
+            padding-top: 15%;
+            width: 100%;
+        }
+        .pagesNav {
+            margin-top: 2%;
+            margin-left: 24%;
+        }
+    
+    .partII_I {
+        width: 100%;
+    }
+    .partII_II {
+        width: 100%;
+    }
+    .BlogSection {
+        margin-left: 2%;
+    }
+    .BlogTitle {
+        margin-left: 6%;
+        margin-top: 13%;
+    }
+    
+    
+    }
